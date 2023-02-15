@@ -7,6 +7,9 @@ Una vez que toda nuestra infraestructura esta funcionando debemos hacer los sigu
 az postgres flexible-server parameter set --resource-group Azure-Cloud  --server-name postgres-fs --subscription <your subscription id> --name azure.extensions --value PG_TGRM
 ```
 2) Accedemos vía ssh a nuestras maquinas virtuales y realizamos un git-clone de los scripts de instalación.
+```bash
+git clone https://github.com/zahidscatizzi/Scripts.git
+```
 ## Servidor Moodle
 Otorgamos permiso al script para ejecutarlo.
 ```bash
